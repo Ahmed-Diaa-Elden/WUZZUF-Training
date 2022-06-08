@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.padding-6rem {
+    padding: 0 1rem 0;
+
+}
+
+.COVID19 {
+    text-align: center;
+    background: rgb(38, 123, 255);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    color: white;
+}
+
+.COVID19-report {
+    border-radius: 0.2rem;
+}
+
+.COVID19-report:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #f8f9fa;
+}
+
+.navbar-brand svg {
+    height: 22px;
+}
+
+.nav-explore {
+    border-bottom: rgb(0, 85, 217) solid 2px;
+    /* color: rgb(0, 85, 217); */
+}
+
+.nav-saved {
+    color: rgb(77, 97, 130);
+}
+
+.nav-saved:hover {
+    color: rgb(0, 85, 217);
+}
+
+.nav-applications {
+    color: rgb(77, 97, 130);
+}
+
+.nav-applications:hover {
+    color: rgb(0, 85, 217);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(0, 85, 217);
+}
+
+.profile-badge {
+    height: 3.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-badge img {
+    border-radius: 50%;
+    height: 100%;
+    border: #9f9696 solid 0.1rem;
+
+}
+
+.profile-bars {
+    position: absolute;
+    bottom: 7px;
+    right: 2px;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    overflow: hidden;
+    background-color: #b7b7b4db;
+}
+
+.profile-bars svg {
+    height: 92%;
+    width: 92%;
+}
+
+.search-form {
+    width: 30%;
+}
+
+.search-input {
+    border: 1px solid rgb(217, 221, 228);
+    border-radius: 0.1rem;
+}
+
+.search-input:hover {
+    border-color: rgb(191, 198, 210);;
+    border-radius: 0.1rem;
+}
+
+.search-input:focus {
+    z-index: 2;
+    box-shadow: 0 0 0 0.18rem rgb(13 110 253 / 25%);
+}
+
+.search-btn {
+    border: 1px solid rgb(217, 221, 228);
+    color: #212529;
+    background-color: rgb(235, 237, 240);
+    border-radius: 0.1rem;
+}
+
+.search-btn:hover {
+    border: 1px solid rgb(217, 221, 228);
+    color: #212529;
+    background-color: rgb(217, 221, 228);
+}
+
+.job-time {
+    font-size: 0.8rem;
+}
+
+.job-title {
+    font-size: 1.2rem;
+
+}
+
+.careers-number {
+    font-size: 0.9rem;
+}
+
+.company-address {
+    font-size: 0.75rem;
+}
+
+.job-requirements {
+    font-size: 0.8rem;
+}
+
+.job-requirements a {
+    color: rgba(var(--bs-body-color-rgb),.75);
+}
+
+.wuzzuf-alert {
+    background: rgb(235, 246, 241);
+    width: fit-content;
+    font-size: 0.8rem;
+}
+
+.row-r1-c1 {
+    width: 60%;
+}
+
+.row-r1-c2 {
+    width: 30%;
+}
+
+.row-r1-c2 img {
+    width: 40%;
+}
+
+.save,
+.share,
+.hide {
+    border-radius: 0.2rem;
+}
+
+.save:hover,
+.share:hover,
+.hide:hover {
+    background-color: rgb(235, 237, 240);
+}
+
+.profile-img {
+    width: 20%;
+}
+
+.profile-img img {
+    border-radius: 50%;
+}
+
+.profile-job {
+    font-size: 0.9rem;
+}
+
+.p-advice-p1 {
+    font-size: 0.95rem;
+}
+
+.p-advice-p2 {
+    font-size: 0.9rem;
+}
+
+.profile-update-btn{
+    border-radius: 0.15rem;
+}
+
+.profile-update-btn:hover {
+    background-color: rgb(230, 239, 255);
+    color: var(--bs-btn-color);
+}
+
+/* media */
+
+
+@media (min-width: 426px) {
+    .padding-6rem {
+        padding: 0 1.5rem 0;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .COVID19-report {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .profile {
+        margin-top: 3.5rem;
+    }
+    .padding-6rem {
+        padding: 0 3rem 0;
+    
+    }
+}
+
+@media (min-width: 1025px) {
+    .padding-6rem {
+        padding: 0 6rem 0;
+    
+    }
+}
+

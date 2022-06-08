@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,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">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/explore.css">
+    <title>WUZZUF</title>
+</head>
+<body>
+    <div class="project">
+    <header>
+        <div class="COVID19 d-flex justify-content-around align-items-center padding-6rem flex-wrap">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="css-9bmev "><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M0 0h24v24H0z"></path><g fill="#FFF" fill-rule="nonzero"><path d="M21 8c-1.45 0-2.26 1.44-1.93 2.51l-3.55 3.56c-.3-.09-.74-.09-1.04 0l-2.55-2.55C12.27 10.45 11.46 9 10 9c-1.45 0-2.27 1.44-1.93 2.52l-4.56 4.55C2.44 15.74 1 16.55 1 18c0 1.1.9 2 2 2 1.45 0 2.26-1.44 1.93-2.51l4.55-4.56c.3.09.74.09 1.04 0l2.55 2.55C12.73 16.55 13.54 18 15 18c1.45 0 2.27-1.44 1.93-2.52l3.56-3.55c1.07.33 2.51-.48 2.51-1.93 0-1.1-.9-2-2-2Z"></path><path d="m15 9 .94-2.07L18 6l-2.06-.93L15 3l-.92 2.07L12 6l2.08.93zM3.5 11 4 9l2-.5L4 8l-.5-2L3 8l-2 .5L3 9z"></path></g></g></svg>
+            <span class="COVID19-advice  fw-semibold my-1">Access insights about COVID 19 impact on employment and youth employability in Egypt.</span>
+            <a type="button" class="btn btn-sm btn-outline-light my-1 mb-2 COVID19-report fw-semibold">Download Report</a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-white padding-6rem ">
+            <div class="container-fluid px-0">
+              <a class="navbar-brand" href="#">
+                <svg viewBox="0 0 125 20" xmlns="http://www.w3.org/2000/svg" aria-labelledby="wuzzuf-logo" class="css-1hbwp7i"><path fill="#0055D9" d="M23.724.001h4.906L22.583 20H18.17L14.315 7.96 10.489 20H6.046L0 .001h4.936L8.793 12.32 12.587 0h3.61l3.671 12.319L23.724 0zm9.147 17.552c-1.604-1.63-2.406-3.823-2.406-6.577V.001h4.689v11.036c0 1.54.432 2.714 1.296 3.524.864.81 2.046 1.215 3.548 1.215 1.48 0 2.648-.405 3.502-1.215.853-.81 1.28-1.985 1.28-3.524V0h4.689v10.975c0 2.754-.792 4.947-2.376 6.577C45.51 19.184 43.145 20 39.998 20s-5.523-.815-7.127-2.446zm18.416-.694L62.456 3.95H51.565V.001h16.69v3.17L57.15 16.052h11.106V20H51.287v-3.14zm18.803 0L81.258 3.95h-10.89V.001h16.69v3.17l-11.106 12.88h11.106v3.948H70.09v-3.14zm21.226.694c-1.605-1.63-2.407-3.823-2.407-6.577V.001h4.69v11.036c0 1.54.432 2.714 1.295 3.524.864.81 2.047 1.215 3.548 1.215 1.481 0 2.648-.405 3.502-1.215.853-.81 1.28-1.985 1.28-3.524V0h4.69v10.975c0 2.754-.793 4.947-2.376 6.577-1.584 1.631-3.949 2.446-7.096 2.446-3.147 0-5.522-.815-7.126-2.446zm23.279-5.733V20h-4.69V0H125l-1.08 3.982h-9.325V8.18h7.959l-.99 3.64h-6.97z"></path></svg>
+              </a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active text-uppercase fw-semibold nav-explore mx-1" aria-current="page" href="#">explore</a>
+                  <a class="nav-link text-uppercase fw-semibold nav-saved mx-1" href="#">saved</a>
+                  <a class="nav-link text-uppercase fw-semibold nav-applications mx-1" href="#">applications</a>
+                </div>
+              </div>
+              <form class="d-flex search-form" role="search">
+                <input class="form-control bg-light me-0 search-input" type="search" placeholder="Search jobs,  Companies.." aria-label="Search">
+                <button class="btn btn-outline-secondary search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+              <div class="navbar-nav">
+                <a class="nav-link profile-badge">
+                  <img src="../imgs/Ahmed Diaa cropped.jpg" alt="Ahmed Diaa's profile photo">
+                  <div class="profile-bars d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+                  </div>
+                </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+    </header>
+    <main class="padding-6rem d-flex flex-md-row flex-column-reverse pt-4 justify-content-between">
+      <section class="me-md-5">
+          <div class="first-row">
+            <h4 class="row-p1 fw-bold">Explore New Career Opportunities</h4>
+            <p class="row-p2">To get relevant content in the feed below, <a href="">update your career interests</a></p>
+          </div>
+          <div class="second-row px-4 pt-4 pb-3 bg-white shadow-sm mb-3">
+            <div class="row-r1 d-flex justify-content-between align-items-start">
+              <div class="row-r1-c1">
+                <p class="mb-1"><a href=""><span class="job-title fw-semibold">Vue.Js Front-End Developer</span> <span class="job-time text-muted fst-italic bg-light p-1">Full Time</span></a></p>
+                <p class="mb-1"><a class="text-black fw-semibold careers-number" href="">34ML</a> <span class="company-address fw-semibold text-muted">- Heliopolis, Cairo</span></p>
+                <p class="mb-2 text-muted job-requirements"><a href="">Entry Level ·</a> 0-3 Yrs of Exp · <a href="">Software Development</a> · <a href="">Information Technology (IT)</a> · <a href="">REST</a> · <a href="">Mobile Development</a> · <a href="">Objective-C</a> · <a href="">Software Design</a> · <a href="">UI</a> · <a href="">JQuery</a> · <a href="">AngularJS</a> · <a href="">JavaScript</a> · in 2 days</p>
+                <div class="alert alert-success mb-0 wuzzuf-alert border-start-0 border-top-0 border-end-0 border-bottom py-1 px-3" role="alert">
+                  <i class="fa-solid fa-star"></i> Your profile meets the requirements of this role
+                </div>
+              </div>
+              <div class="row-r1-c2 company-logo">
+                <a href="" class="w-100 h-100 d-flex justify-content-end align-items-start pt-2 pe-3">
+                  <img class="img-fluid" src="https://images.wuzzuf-data.net/files/company_logo/34-Media-Labs-Egypt-15979-1518349576.png" alt="">
+                </a>
+              </div>
+            </div>
+            <hr class="text-muted mb-1">
+            <div class="rpw-r2">
+              <div class="sa-sh-hi d-flex justify-content-start align-items-center">
+                <div class="save py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <buttton>save</buttton>
+                  </a>
+                </div>
+                <div class="share py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-share me-1"></i>
+                    <buttton>share</buttton>
+                  </a>
+                </div>
+                <div class="hide py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-eye-slash me-1"></i>
+                    <buttton>hide</buttton>
+                  </a>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="second-row px-4 pt-4 pb-3 bg-white shadow-sm mb-3">
+            <div class="row-r1 d-flex justify-content-between align-items-start">
+              <div class="row-r1-c1">
+                <p class="mb-1"><a href=""><span class="job-title fw-semibold">Vue.Js Front-End Developer</span> <span class="job-time text-muted fst-italic bg-light p-1">Full Time</span></a></p>
+                <p class="mb-1"><a class="text-black fw-semibold careers-number" href="">34ML</a> <span class="company-address fw-semibold text-muted">- Heliopolis, Cairo</span></p>
+                <p class="mb-2 text-muted job-requirements"><a href="">Entry Level ·</a> 0-3 Yrs of Exp · <a href="">Software Development</a> · <a href="">Information Technology (IT)</a> · <a href="">REST</a> · <a href="">Mobile Development</a> · <a href="">Objective-C</a> · <a href="">Software Design</a> · <a href="">UI</a> · <a href="">JQuery</a> · <a href="">AngularJS</a> · <a href="">JavaScript</a> · in 2 days</p>
+                <div class="alert alert-success mb-0 wuzzuf-alert border-start-0 border-top-0 border-end-0 border-bottom py-1 px-3" role="alert">
+                  <i class="fa-solid fa-star"></i> Your profile meets the requirements of this role
+                </div>
+              </div>
+              <div class="row-r1-c2 company-logo">
+                <a href="" class="w-100 h-100 d-flex justify-content-end align-items-start pt-2 pe-3">
+                  <img class="img-fluid" src="https://images.wuzzuf-data.net/files/company_logo/34-Media-Labs-Egypt-15979-1518349576.png" alt="">
+                </a>
+              </div>
+            </div>
+            <hr class="text-muted mb-1">
+            <div class="rpw-r2">
+              <div class="sa-sh-hi d-flex justify-content-start align-items-center">
+                <div class="save py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <buttton>save</buttton>
+                  </a>
+                </div>
+                <div class="share py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-share me-1"></i>
+                    <buttton>share</buttton>
+                  </a>
+                </div>
+                <div class="hide py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-eye-slash me-1"></i>
+                    <buttton>hide</buttton>
+                  </a>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="second-row px-4 pt-4 pb-3 bg-white shadow-sm mb-3">
+            <div class="row-r1 d-flex justify-content-between align-items-start">
+              <div class="row-r1-c1">
+                <p class="mb-1"><a href=""><span class="job-title fw-semibold">Vue.Js Front-End Developer</span> <span class="job-time text-muted fst-italic bg-light p-1">Full Time</span></a></p>
+                <p class="mb-1"><a class="text-black fw-semibold careers-number" href="">34ML</a> <span class="company-address fw-semibold text-muted">- Heliopolis, Cairo</span></p>
+                <p class="mb-2 text-muted job-requirements"><a href="">Entry Level ·</a> 0-3 Yrs of Exp · <a href="">Software Development</a> · <a href="">Information Technology (IT)</a> · <a href="">REST</a> · <a href="">Mobile Development</a> · <a href="">Objective-C</a> · <a href="">Software Design</a> · <a href="">UI</a> · <a href="">JQuery</a> · <a href="">AngularJS</a> · <a href="">JavaScript</a> · in 2 days</p>
+                <div class="alert alert-success mb-0 wuzzuf-alert border-start-0 border-top-0 border-end-0 border-bottom py-1 px-3" role="alert">
+                  <i class="fa-solid fa-star"></i> Your profile meets the requirements of this role
+                </div>
+              </div>
+              <div class="row-r1-c2 company-logo">
+                <a href="" class="w-100 h-100 d-flex justify-content-end align-items-start pt-2 pe-3">
+                  <img class="img-fluid" src="https://images.wuzzuf-data.net/files/company_logo/34-Media-Labs-Egypt-15979-1518349576.png" alt="">
+                </a>
+              </div>
+            </div>
+            <hr class="text-muted mb-1">
+            <div class="rpw-r2">
+              <div class="sa-sh-hi d-flex justify-content-start align-items-center">
+                <div class="save py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <buttton>save</buttton>
+                  </a>
+                </div>
+                <div class="share py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-share me-1"></i>
+                    <buttton>share</buttton>
+                  </a>
+                </div>
+                <div class="hide py-2 px-3">
+                  <a href="" class="text-muted">
+                    <i class="fa-solid fa-eye-slash me-1"></i>
+                    <buttton>hide</buttton>
+                  </a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </section>
+        <aside class="">
+          <div class="profile p-4 shadow-sm bg-white mb-2">
+
+          <div class="profile-info d-flex justify-content-start align-items-start mb-3">
+            <div class="profile-img"><img class="img-fluid" src="../imgs/Ahmed Diaa cropped.jpg" alt=""></div>
+            <div class="profile-details ms-1">
+              <p class="m-0 fw-semibold">Ahmed Diaa Bakr</p>
+              <p class="m-0 profile-job text-muted">Full Stack Developer at Udemy Course</p>
+            </div>
+          </div>
+          <div class="profile-advice">
+            <p class="fw-semibold p-advice-p1 m-0">Update your Career interest</p>
+            <p class="p-advice-p2 m-0 mb-1">add your most updated career interest to receive better job recommendations</p>
+          </div>
+          <div class="profile-range"></div>
+          <button type="button" class="profile-update-btn btn btn-outline-primary fw-semibold mt-1">Update Career Interest</button>
+        </div>
+
+        </aside>
+    </main>
+    </div>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
