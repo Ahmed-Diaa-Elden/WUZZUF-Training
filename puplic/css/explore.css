@@ -208,6 +208,12 @@ a {
     color: var(--bs-btn-color);
 }
 
+.profile-range {
+    background: linear-gradient(to right, rgb(179, 209, 255) ,rgb(0, 85, 217) 80%,rgb(247, 244, 244) 0%);
+    width: 100%;
+    height: 0.4rem;
+}
+
 /* media */
 
 
